@@ -29,3 +29,20 @@ header, footer {
     background-color: #f1f1f1;
     text-align: center;
 }
+
+@media (max-width: 800px) {
+    body.works_on_smartphone {
+      display: block; /* Makes the page more stackable on small screens */
+    }
+  
+    body.works_on_smartphone main {
+      display: block; /* Ensure main section is displayed as a block */
+    }
+  
+    header .right {
+      float: none; /* Remove right float from the header */
+    }
+  
+    /* You can add more styles here for other elements as needed */
+  }
+  
